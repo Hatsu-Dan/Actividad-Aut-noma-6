@@ -22,8 +22,7 @@ bst_musica/
 ├── arbol.py            # Clase ArbolCancionesBST: toda la lógica del árbol
 ├── interfaz_consola.py # Menú de texto para usar el programa en terminal
 ├── interfaz_gui.py     # Interfaz gráfica (Tkinter)
-├── main.py             # Punto de entrada: abre la GUI, o la consola si
-│                        # Tkinter no está instalado
+├── main.py             # Punto de entrada: abre la GUI, o la consola si Tkinter no está instalado
 └── README.md
 ```
 
@@ -72,6 +71,6 @@ cuestan **O(log n)**. `calcular_tiempo_total`, `filtrar_canciones_cortas` y
 (no pueden ser más rápidas, porque necesitan visitar cada canción al menos
 una vez).
 
-## Autor
-
-Akio — Facultad de Ingeniería, UNACH.
+## Nombre: Christian Correa
+## Fecha: 5/7/2026
+## Carrera: Ciencia de Datos e Inteligencia Atificial
