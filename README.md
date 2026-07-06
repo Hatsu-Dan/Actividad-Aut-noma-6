@@ -1,6 +1,6 @@
 # Nombre: Christian Correa
 # Fecha: 5/7/2026
-# Carrera: Ciencia de Datos e Inteligencia Atificial
+# Carrera: Ciencia de Datos e Inteligencia Atificial.
 
 # 🎧 Motor de Recomendación Musical con Árbol de Búsqueda Binaria (BST)
 
