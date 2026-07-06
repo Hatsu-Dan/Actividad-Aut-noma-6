@@ -1,3 +1,7 @@
+# Nombre: Christian Correa
+# Fecha: 5/7/2026
+# Carrera: Ciencia de Datos e Inteligencia Atificial
+
 # 🎧 Motor de Recomendación Musical con Árbol de Búsqueda Binaria (BST)
 
 Proyecto para la actividad autónoma **Unidad 3 - Tema 2: Árboles Binarios**
@@ -7,11 +11,11 @@ Binaria (BST)**, usando como clave la **duración de la canción en segundos**.
 
 ## ¿Por qué un BST y no una lista?
 
-En una lista, buscar la canción más parecida a una duración pedida obliga a
+En una lista buscar la canción más parecida a una duración pedida obliga a
 revisar canción por canción: **O(n)**. En un BST balanceado, cada
 comparación descarta la mitad del árbol restante, así que la misma búsqueda
 cuesta apenas **O(log n)**. Esa es la ventaja que se está demostrando aquí:
-si el usuario quiere una canción más corta, el sistema baja a la izquierda;
+si el usuario quiere una canción más corta, el sistema baja a la izquierda,
 si la quiere más larga, baja a la derecha — nunca revisa el árbol completo.
 
 ## Estructura del proyecto
@@ -22,7 +26,7 @@ bst_musica/
 ├── arbol.py            # Clase ArbolCancionesBST: toda la lógica del árbol
 ├── interfaz_consola.py # Menú de texto para usar el programa en terminal
 ├── interfaz_gui.py     # Interfaz gráfica (Tkinter)
-├── main.py             # Punto de entrada: abre la GUI, o la consola si Tkinter no está instalado
+├── main.py             # Punto de entrada: abre la GUI o la consola si Tkinter no está instalado
 └── README.md
 ```
 
@@ -68,9 +72,4 @@ python interfaz_consola.py
 Con el árbol balanceado, `buscar`, `eliminar` y `recomendar_cancion_perfecta`
 cuestan **O(log n)**. `calcular_tiempo_total`, `filtrar_canciones_cortas` y
 `verificar_balance` recorren el árbol completo, por lo que cuestan **O(n)**
-(no pueden ser más rápidas, porque necesitan visitar cada canción al menos
-una vez).
-
-## Nombre: Christian Correa
-## Fecha: 5/7/2026
-## Carrera: Ciencia de Datos e Inteligencia Atificial
+(no pueden ser más rápidas, porque necesitan visitar cada canción al menos una vez).
